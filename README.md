@@ -21,7 +21,7 @@ The data obtained from [Kaggle](https://www.kaggle.com/datasets/prasadvpatil/mrl
 
 ## Project aim
 
-To develop a neural network that can determine if eyes are open or closed in conjunction with computer vision.It will determine whether a driver has had their eyes closed for longer than three seconds and if they are,the driver receives an alert.
+To develop a neural network that can determine if eyes are open or closed in conjunction with computer vision.It will determine whether a driver has had their eyes closed for longer than three seconds and if they have,the driver receives an alert.
 
 Deploy our model to a webcam application that will classify a driver as having slept on the wheel if the positive class(eyes closed) is true for more than three frames.
 
