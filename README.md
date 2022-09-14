@@ -137,4 +137,4 @@ The image above shows the training auc score and test auc score of the transfer 
 
 
 ## More Information
-For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository](
+For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository](https://github.com/HannahMwende/Driver-Drowniness-dectection-system).
