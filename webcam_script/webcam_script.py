@@ -5,7 +5,7 @@ import face_recognition
 from tensorflow import keras
 import tensorflow as tf
 from playsound import playsound
-import os
+
 eye_model = keras.models.load_model('final_model1.h5')
 
 
@@ -83,19 +83,15 @@ w = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
 h = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 print(cap.get(cv2.CAP_PROP_FPS))
 
-
 if not cap.isOpened():
     raise IOError('Cannot open webcam')
-
-# set a counter
-
 counter = 0
 
 # create a while loop that runs while webcam is in use
 
 while True:
 
-    # capture frames being outputted by webcam
+    #creating a while loop that runs when webcam is in use
 
     ret, frame = cap.read()
 
@@ -126,42 +122,20 @@ while True:
     if prediction < 0.5:
         counter = 0
         status = 'Open'
-
-       
-     
         cv2.putText(frame, status, (round(w/2)-80,70), cv2.FONT_HERSHEY_SIMPLEX, 2, (0,255,0), 2, cv2.LINE_4)
-        x1, y1,w1,h1 = 0,0,175,75
-        ## Draw black backgroun rectangle
-     
-        ## Add text
-        
+
     else:
         counter = counter + 1
         status = 'Closed'
-
-      
-
         cv2.putText(frame, status, (round(w/2)-104,70), cv2.FONT_HERSHEY_SIMPLEX, 2, (0,0,255), 2, cv2.LINE_4)
-        x1, y1,w1,h1 = 0,0,175,75
-        ## Draw black backgroun rectangle
        
-        ## Add text
-        
-
-
         # if the counter is greater than 3, play and show alert that user is asleep
 
         if counter > 2:
-
-            x1, y1, w1, h1 = 400,400,400,100
-            ## Draw black background rectangle
-           
             cv2.putText(frame, 'DRIVER SLEEPING', (round(w/2)-136,round(h) - 146), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,0), 2, cv2.LINE_4)
-
             cv2.imshow('Drowsiness Detection', frame)
             k = cv2.waitKey(1)
-            ## Sound
-            playsound('./rooster.mov')
+            playsound('rooster.mov')
             counter = 1
             continue
     cv2.imshow('Drowsiness Detection', frame)
