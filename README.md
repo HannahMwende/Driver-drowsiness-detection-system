@@ -1,4 +1,4 @@
-# Driver-Drowniness-dectection-system
+# Driver-Drowniness-detection-system
 
 <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13177-019-00199-w/MediaObjects/13177_2019_199_Fig3_HTML.png" width="1000" height="700">
 
