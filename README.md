@@ -123,7 +123,7 @@ A confusion matrix for our final model was plotted as seen below.
 ![Screenshot (364)](https://user-images.githubusercontent.com/104419035/190210056-15374134-bcc5-4e66-9e97-54a49e64e11c.png)
 
 
-The model resulted in a Precision score of 0.99,Recall score of 1.0,Accuracy score of 1.0 and F1 score 0f 0.99
+The model resulted in a Precision score of 0.97,Recall score of 1.0,Accuracy score of 0.99 and F1 score 0f 0.99
 
 ## Challenging the model
 
