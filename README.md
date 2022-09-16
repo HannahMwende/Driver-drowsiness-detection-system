@@ -1,6 +1,6 @@
 # Driver-Drowniness-detection-system
 
-<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13177-019-00199-w/MediaObjects/13177_2019_199_Fig3_HTML.png" width="1000" height="700">
+<img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13177-019-00199-w/MediaObjects/13177_2019_199_Fig3_HTML.png" width="1000" height="600">
 
 Authors:
 
@@ -109,11 +109,11 @@ From the grid search we find the best layout to be 2*3x3 with 32 filters. This m
 
 #### Final model evaluation
 
-![Screenshot (361)](https://user-images.githubusercontent.com/104419035/190208473-66697394-0aa8-46aa-ac37-a2e59ecd05d8.png)
+![Screenshot (381)](https://user-images.githubusercontent.com/104419035/190605635-898b3792-3210-4a97-8aeb-1ba4c83efa58.png)
 
 The final model had a Training auc score of 0.99 and Test auc score of 0.99
 
-![Screenshot (362)](https://user-images.githubusercontent.com/104419035/190209468-87377507-72ee-4f63-992e-f13ef660d355.png)
+![Screenshot (380)](https://user-images.githubusercontent.com/104419035/190605421-07862721-886d-4d99-8ec8-e4eedc34af00.png)
 
 The plot shows the loss and auc curves for training and validation data.
 
@@ -129,11 +129,11 @@ The model resulted in a Precision score of 0.97,Recall score of 1.0,Accuracy sco
 
 A transfer learning model was used to challenge the model.Transfer learning for image classification is about leveraging feature representations from a pre-trained model, so you don't have to train a new model from scratch.VGG19 was used as it is an advanced network with pretrained layers and a better understanding of what defines an image in terms of shape, color, and structure.
 
-![Screenshot (366)](https://user-images.githubusercontent.com/104419035/190210284-56650542-efcd-482c-ac81-7fc1b52d96e1.png)
+![Screenshot (379)](https://user-images.githubusercontent.com/104419035/190604928-9dc66c1e-42e1-4dde-9cb4-8ea220b34095.png)
 
-The image above shows the training auc score and test auc score of the transfer learning model and the plot below shows loss and auc curves for training and validation data of the transfer learning model.
+The image above shows the Training auc score of 0.99 and Test auc score of 0.99 of the transfer learning model and the plot below shows loss and auc curves for training and validation data of the transfer learning model.
 
-![Screenshot (365)](https://user-images.githubusercontent.com/104419035/190210581-3b76ac6f-92f6-4563-a564-1ccfa1eb367a.png)
+![Screenshot (378)](https://user-images.githubusercontent.com/104419035/190604614-5ebb1578-619f-4dec-a58e-0a2d1c6b32d4.png)
 
 
 ## More Information
