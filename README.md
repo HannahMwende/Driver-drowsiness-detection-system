@@ -120,7 +120,7 @@ The plot shows the loss and auc curves for training and validation data.
 
 A confusion matrix for our final model was plotted as seen below.
 
-![Screenshot (364)](https://user-images.githubusercontent.com/104419035/190210056-15374134-bcc5-4e66-9e97-54a49e64e11c.png)
+![Screenshot (367)](https://user-images.githubusercontent.com/104419035/190600080-4a8a6874-2b0d-4f4f-adfc-36406e71ca1f.png)
 
 
 The model resulted in a Precision score of 0.97,Recall score of 1.0,Accuracy score of 0.99 and F1 score 0f 0.99
