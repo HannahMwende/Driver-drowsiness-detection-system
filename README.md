@@ -102,10 +102,10 @@ dense_neurons3 : 512
 dropout : 0.1
 epochs : 10
 filters : 32
-layout: 2*3x3
+layout: 3x3
 pooling : 1
 
-From the grid search we find the best layout to be 2*3x3 with 32 filters. This means we will have two convolution layers with a kernel size of (3,3) representing the height and width of the filter. 
+From the grid search we find the best layout to be 2*3x3 with 32 filters. This means we will have a convolution layer with a kernel size of (3,3) representing the height and width of the filter. 
 
 #### Final model evaluation
 
