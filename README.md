@@ -135,7 +135,7 @@ The image above shows the Training auc score of 0.99 and Test auc score of 0.99 
 
 ![Screenshot (378)](https://user-images.githubusercontent.com/104419035/190604614-5ebb1578-619f-4dec-a58e-0a2d1c6b32d4.png)
 
-## Conclusions
+## Conclusion
 The final model achieved an auc_score of 0.99 which surpassed the earlier set target of 0.97 meaning that the model is able to separate open and closed eyes 99 out of a hundred.
 
 ## Future scope
