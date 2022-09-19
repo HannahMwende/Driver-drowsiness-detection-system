@@ -135,6 +135,11 @@ The image above shows the Training auc score of 0.99 and Test auc score of 0.99 
 
 ![Screenshot (378)](https://user-images.githubusercontent.com/104419035/190604614-5ebb1578-619f-4dec-a58e-0a2d1c6b32d4.png)
 
+## Conclusions
+The final model achieved an auc_score of 0.99 which surpassed the earlier set target of 0.97 meaning that the model is able to separate open and closed eyes 99 out of a hundred.
+
+## Future scope
+In future works,the system can be improved incrementally by using other parameters like blink rate, yawning, state of the car to detect drowsiness.
 
 ## More Information
 For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository](https://github.com/HannahMwende/Driver-Drowniness-dectection-system).
