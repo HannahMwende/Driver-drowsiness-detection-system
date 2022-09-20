@@ -140,7 +140,7 @@ The model was deployed on a webcam application where a video of the driver’s e
 Upon successful deployment of the model, the number of road accidents can be reduced when this system is implemented in the vehicle to detect the drowsiness of the driver.
 
 ## Recommendations
-Given the success of this driver drowsiness detection system with Dereva automobile company,other car companies,bodies and authorities involved in road safety such as the National Transport and Safety and Authority adopt the system.
+Given the success of this driver drowsiness detection system with Dereva automobile company,other car companies,bodies and authorities involved in road safety such as the National Transport and Safety and Authority can adopt the system.
 
 ## Future scope
 In future works,the system can be improved significantly by using other signs of drowsiness like blinking rate, yawning, drifting from one’s lane so as to ensure the system is reliable in detecting drowsiness. If all these parameters are used it can improve the accuracy.
