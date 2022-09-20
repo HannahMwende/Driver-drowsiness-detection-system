@@ -94,15 +94,14 @@ Normalization of data was done to reduce pixel values to a range between 0 and 1
 ## Modelling and Evaluation
 
 After building the model, we did several GridSearch to find optimum values for hyperparameter. 
-The optimal parameters are :
 
- dense neurons1:128,
- Dropout :0.1,
- epochs:10, 
-filters :32, 
-layout :3*3,
- pooling:None
-
+The optimal parameters were:
+Units : 128,
+Dropout : 0.1,
+Epochs: 10, 
+Filters : 32, 
+Layout : 3*3,
+Pooling: None
 
 From the grid search we find the best layout to be 3x3 with 32 filters. This means we will have a convolution layer with a kernel size of (3,3) representing the height and width of the filter. 
 
